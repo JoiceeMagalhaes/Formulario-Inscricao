@@ -1,0 +1,14 @@
+{
+  "name": "meu-servidor-local",
+  "version": "1.0.0",
+  "description": "Um servidor local para servir arquivos estáticos.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "Seu Nome",
+  "license": "MIT"
+}
