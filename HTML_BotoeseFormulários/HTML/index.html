@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário com Botões</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+  </head>     
+
+  <body>
+    <div class="form-container">
+      <h2>Fale Conosco</h2>
+      <div id="mensagem-status"></div>
+
+
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input 
+            type="text" 
+            id="nome" 
+            name="nome" 
+            placeholder="Digite seu nome completo" 
+            required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="seuemail@exemplo.com" 
+            required>    
+        </div>
+
+        <div class="form-group">   
+          <label for="mensagem">Mensagem:</label>
+          <textarea 
+            id="mensagem" 
+            name="mensagem" 
+            rows="4" 
+            placeholder="Escreva sua mensagem aqui..." 
+            required>
+          </textarea>
+        </div>
+
+        <div class="form-buttons">
+          <button type="submit" class="btn btn-submit">Enviar</button>
+          <button type="reset" class="btn btn-secundario">Limpar</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="../JAVA/script.js" defer> </script>
+
+  </body>
+</html>
